@@ -1,5 +1,28 @@
-# React basic
+# Dansite Repo
 
-[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build [React](https://reactjs.org/) apps in minutes. Use this repo with the [React quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=react) to build and customize a new static site.
+Hi, this is a repository for my personal website - hosted using Azure Static Web Apps.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I am relatively new to web development (compared to other programming areas), so any suggestions/feedback would be greatly appreciated!
+
+# Deployment
+
+To deploy, simply merge/commit to the main branch - Azure will automatically start the deployment job.
+
+# Debugging
+
+## To debug front-end locally:
+1. run `npm run start`
+2. go to "Run and Debug" in VSCode and select "Launch edge against local host"
+
+## To debug both front-end and API locally (recommended):
+1. run `npm run start`
+2. run `swa start http://localhost:3000 --api-location api` in a new terminal
+3. go to "Run and Debug" in VSCode and select "Launch edge against local host emulated by swa"
+
+
+# Documentation
+
+The main Docs I am presently using to guide development are:
+
+- [Azure Static Web Apps Docs](https://docs.microsoft.com/azure/static-web-apps/overview)
+- [React quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=react)
