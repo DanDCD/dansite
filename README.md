@@ -37,3 +37,4 @@ The main Docs I am presently using to guide development are:
 - [Azure Static Web Apps Docs](https://docs.microsoft.com/azure/static-web-apps/overview)
 - [React quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=react)
 - [JavaScript Azure Functions Docs](https://learn.microsoft.com/en-gb/azure/azure-functions/functions-reference-node?tabs=javascript%2Clinux%2Cazure-cli&pivots=nodejs-model-v4)
+- [Debugging with SWA](https://learn.microsoft.com/en-us/azure/static-web-apps/local-development)
