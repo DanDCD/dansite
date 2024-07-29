@@ -37,7 +37,7 @@ const StyledButton = Styled.button`
     font-size: calc(1vw + 0.5rem); /* Dynamically adjust font size based on viewport width */
 
     /* Default styles for mobile */
-    background-color: #F5FFFA;
+    background-color: white;
     color: black;
     border: none;
     border-radius: 10%;
@@ -46,7 +46,7 @@ const StyledButton = Styled.button`
     /* Styles for desktop */
     @media (min-width: 768px) {
         background-color: transparent;
-        color: #F5FFFA;
+        color: white;
         border: none;
     }
 `;
