@@ -8,7 +8,14 @@ const StyledFooter = Styled.footer`
     grid-area: 2 / 1 / 3 / 4;
     background-color: #313B72;
     padding: var(--header-footer-spacing);
-    `;
+    /* we dont want the footer to be displayed on mobile */
+    display: none;
+    /* we want the footer to be displayed on desktop */
+    @media (min-width: 768px) {
+        display: block;
+    }
+    
+`;
 
 
 const Footer = () => {
