@@ -1,5 +1,5 @@
 const { app } = require('@azure/functions');
-
+// you can also call this with url/api/trigger
 app.http('trigger', {
     methods: ['GET', 'POST'],
     authLevel: 'anonymous',
