@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     --header-footer-spacing: 10px 20px;
+    background-color: mintcream;
 }

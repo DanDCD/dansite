@@ -2,9 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import "../index.css";
 import Home from "./Home";
-import About from "./About";
+import Experience from "./Experience";
 import Contact from "./Contact";
 import Footer from "./Footer";
+
 
 
 const StyledMain = styled.main`
@@ -25,7 +26,7 @@ const Main = ({ section }) => {
     return (// Display the section based on the section state
         <StyledMain>
             {section === 'home' && <Home />}
-            {section === 'about' && <About />}
+            {section === 'experience' && <Experience />}
             {section === 'contact' && <Contact />}
             <Footer />
         </StyledMain>

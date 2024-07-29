@@ -6,7 +6,7 @@ import "../index.css";
 const StyledHeader = Styled.header`
     /* grid element settings */
     grid-area: header;
-    background-color: #313B72;
+    background-color: #022b3a;
     padding: var(--header-footer-spacing);
 
     /* flex container settings */
@@ -22,7 +22,9 @@ const StyledNav = Styled.nav`
 `;
 
 const StyledH1 = Styled.h1`
-    color: white;
+    background-image: linear-gradient(120deg, #07beb8 0%, #c4fff9 100%);
+    background-clip: text;
+    color: transparent;
     whitespace: nowrap;
     /* flex item settings */
     flex-shrink: 1;
@@ -39,6 +41,7 @@ const StyledButton = Styled.button`
     /* Default styles for mobile */
     background-color: white;
     color: black;
+
     border: none;
     border-radius: 10%;
     
@@ -46,8 +49,15 @@ const StyledButton = Styled.button`
     /* Styles for desktop */
     @media (min-width: 768px) {
         background-color: transparent;
-        color: white;
+        color: #c4fff9;
         border: none;
+    }
+
+    /* Styles for hover */
+    &:hover {
+        background-color: #c4fff9;
+        color: black;
+        cursor: pointer;
     }
 `;
 
@@ -59,7 +69,7 @@ const Header = ({ section, setSection }) => {
             <StyledH1>Daniel Drew</StyledH1>
             <StyledNav>
                 <StyledButton onClick={() => setSection('home')}>Home</StyledButton>
-                <StyledButton onClick={() => setSection('about')}>About</StyledButton>
+                <StyledButton onClick={() => setSection('experience')}>Experience</StyledButton>
                 <StyledButton onClick={() => setSection('contact')}>Contact</StyledButton>
             </StyledNav>
         </StyledHeader>
