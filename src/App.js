@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Footer from "./components/Footer";
 import "./index.css";
 
 const StyledApp = styled.div`
@@ -13,8 +12,7 @@ const StyledApp = styled.div`
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         'header'
-        'main'
-        'footer';
+        'main';
 `;
 
 
@@ -25,7 +23,7 @@ function App() {
     <StyledApp>
       <Header section={section} setSection={setSection} />
       <Main section={section} />
-      <Footer />
+      
     </StyledApp>
   );
 }

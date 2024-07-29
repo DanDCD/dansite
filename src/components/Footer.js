@@ -4,7 +4,8 @@ import "../index.css";
 
 const StyledFooter = Styled.footer`
     /* grid element settings */
-    grid-area: footer;
+    /* start row / start column / end row / end column */
+    grid-area: 2 / 1 / 3 / 4;
     background-color: #313B72;
     padding: var(--header-footer-spacing);
     `;
