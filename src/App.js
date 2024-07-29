@@ -9,7 +9,7 @@ const StyledApp = styled.div`
   /* grid container settings */
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr;
     grid-template-areas:
         'header'
         'main';
